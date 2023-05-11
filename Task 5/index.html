@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles.css">
+	<title>Task 5</title>
+</head>
+
+<body>
+	<h1>Відмітити присутніх на парі</h1>
+	<form>
+		<label for="group">Група:</label>
+		<select id="group">
+			<option value="group1">Група 1</option>
+			<option value="group2">Група 2</option>
+			<option value="group3">Група 3</option>
+		</select>
+
+		<label for="pair">Пара:</label>
+		<select id="pair">
+			<option value="pair1">Пара 1</option>
+			<option value="pair2">Пара 2</option>
+			<option value="pair3">Пара 3</option>
+		</select>
+		<label for="topic">Тема заняття:</label>
+		<input type="text" id="topic">
+
+		<label>Присутні:</label>
+		<input type="checkbox" id="student1" value="student1">
+		<label for="student1">Студент 1</label>
+		<input type="checkbox" id="student2" value="student2">
+		<label for="student2">Студент 2</label>
+		<input type="checkbox" id="student3" value="student3">
+		<label for="student3">Студент 3</label>
+		<input type="submit" value="Відмітити">
+	</form>
+
+	<h2>Відмічені пари:</h2>
+	<ul id="recordList"></ul>
+	<script src="main.js"></script>
+</body>
+
+</html>

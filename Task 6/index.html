@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles.css">
+	<title>Task 6</title>
+</head>
+
+<body>
+	<h1>Забронювати квитки на поїзд</h1>
+	<form>
+		<label for="destination">Напрямок:</label>
+		<select id="destination">
+			<option value="Київ">Київ</option>
+			<option value="Львів">Львів</option>
+			<option value="Одеса">Одеса</option>
+		</select>
+		<br>
+		<label for="date">Дата:</label>
+		<input type="date" id="date">
+		<br>
+		<label for="seats">Місця:</label>
+		<br>
+		<input type="checkbox" name="seat" value="1">1
+		<input type="checkbox" name="seat" value="2">2
+		<input type="checkbox" name="seat" value="3">3
+		<input type="checkbox" name="seat" value="4">4
+		<input type="checkbox" name="seat" value="5">5
+		<br>
+		<input type="submit" value="Забронювати">
+	</form>
+	<br>
+	<h2>Заброньовані квитки</h2>
+	<table>
+		<thead>
+			<tr>
+				<th>Напрямок</th>
+				<th>Дата</th>
+				<th>Місця</th>
+			</tr>
+		</thead>
+		<tbody id="bookings">
+		</tbody>
+	</table>
+	
+	<script src="main.js"></script>
+</body>
+
+</html>

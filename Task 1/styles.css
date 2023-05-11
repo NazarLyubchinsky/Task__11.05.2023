@@ -1,0 +1,57 @@
+header {
+	border: 1px solid red;
+	padding: 20px;
+}
+header,
+main {
+	margin: 20px;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	padding: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+form {
+	border: 1px solid red;
+	border-radius: 30px;
+	padding: 40px 30px;
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	width: 50%;
+}
+
+label {
+	margin-top: 10px;
+}
+
+input,
+textarea {
+	padding: 5px;
+	margin-bottom: 10px;
+	border: 1px solid #ccc;
+	max-width: 100%;
+}
+
+button[type="submit"] {
+
+	background-color: grey;
+	color: #fff;
+	border: none;
+	padding: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+button[type="submit"]:hover {
+	background-color: rgb(179, 171, 171);
+}
